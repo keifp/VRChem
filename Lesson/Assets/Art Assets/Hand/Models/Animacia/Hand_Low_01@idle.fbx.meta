@@ -1,0 +1,197 @@
+fileFormatVersion: 2
+guid: d864406dc2fd3be46982d006dfc17671
+timeCreated: 1501240533
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Hand_J_00
+    100002: Hand_J_01
+    100004: Hand_J_02
+    100006: Hand_J_03
+    100008: Hand_J_04
+    100010: Hand_J_05
+    100012: Hand_J_06
+    100014: Hand_J_07
+    100016: Hand_J_08
+    100018: Hand_J_09
+    100020: Hand_J_10
+    100022: Hand_J_11
+    100024: Hand_J_12
+    100026: Hand_J_13
+    100028: Hand_J_14
+    100030: Hand_J_15
+    100032: Hand_J_16
+    100034: Hand_J_17
+    100036: Hand_J_18
+    100038: Hand_J_19
+    100040: Hand_J_20
+    100042: Hand_J_21
+    100044: //RootNode
+    400000: Hand_J_00
+    400002: Hand_J_01
+    400004: Hand_J_02
+    400006: Hand_J_03
+    400008: Hand_J_04
+    400010: Hand_J_05
+    400012: Hand_J_06
+    400014: Hand_J_07
+    400016: Hand_J_08
+    400018: Hand_J_09
+    400020: Hand_J_10
+    400022: Hand_J_11
+    400024: Hand_J_12
+    400026: Hand_J_13
+    400028: Hand_J_14
+    400030: Hand_J_15
+    400032: Hand_J_16
+    400034: Hand_J_17
+    400036: Hand_J_18
+    400038: Hand_J_19
+    400040: Hand_J_20
+    400042: Hand_J_21
+    400044: //RootNode
+    7400000: idle
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: idle
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Hand_J_00
+        weight: 1
+      - path: Hand_J_00/Hand_J_01
+        weight: 1
+      - path: Hand_J_00/Hand_J_01/Hand_J_02
+        weight: 1
+      - path: Hand_J_00/Hand_J_01/Hand_J_02/Hand_J_03
+        weight: 1
+      - path: Hand_J_00/Hand_J_01/Hand_J_02/Hand_J_03/Hand_J_04
+        weight: 1
+      - path: Hand_J_00/Hand_J_01/Hand_J_02/Hand_J_03/Hand_J_04/Hand_J_05
+        weight: 1
+      - path: Hand_J_00/Hand_J_01/Hand_J_06
+        weight: 1
+      - path: Hand_J_00/Hand_J_01/Hand_J_06/Hand_J_07
+        weight: 1
+      - path: Hand_J_00/Hand_J_01/Hand_J_06/Hand_J_07/Hand_J_08
+        weight: 1
+      - path: Hand_J_00/Hand_J_01/Hand_J_06/Hand_J_07/Hand_J_08/Hand_J_09
+        weight: 1
+      - path: Hand_J_00/Hand_J_01/Hand_J_10
+        weight: 1
+      - path: Hand_J_00/Hand_J_01/Hand_J_10/Hand_J_11
+        weight: 1
+      - path: Hand_J_00/Hand_J_01/Hand_J_10/Hand_J_11/Hand_J_12
+        weight: 1
+      - path: Hand_J_00/Hand_J_01/Hand_J_10/Hand_J_11/Hand_J_12/Hand_J_13
+        weight: 1
+      - path: Hand_J_00/Hand_J_01/Hand_J_14
+        weight: 1
+      - path: Hand_J_00/Hand_J_01/Hand_J_14/Hand_J_15
+        weight: 1
+      - path: Hand_J_00/Hand_J_01/Hand_J_14/Hand_J_15/Hand_J_16
+        weight: 1
+      - path: Hand_J_00/Hand_J_01/Hand_J_14/Hand_J_15/Hand_J_16/Hand_J_17
+        weight: 1
+      - path: Hand_J_00/Hand_J_01/Hand_J_18
+        weight: 1
+      - path: Hand_J_00/Hand_J_01/Hand_J_18/Hand_J_19
+        weight: 1
+      - path: Hand_J_00/Hand_J_01/Hand_J_18/Hand_J_19/Hand_J_20
+        weight: 1
+      - path: Hand_J_00/Hand_J_01/Hand_J_18/Hand_J_19/Hand_J_20/Hand_J_21
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
