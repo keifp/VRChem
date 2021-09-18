@@ -236,6 +236,8 @@ MonoBehaviour:
   rotationSpeed: 80
   radius: 1
   desiredPosition: {x: 0, y: 0, z: 0}
+  particleIndex: 0
+  tempGrabbed: 1
 --- !u!96 &-9215610361569723520
 TrailRenderer:
   serializedVersion: 2

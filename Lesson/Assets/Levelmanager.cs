@@ -7,11 +7,12 @@ using UnityEngine.SceneManagement;
 public class Levelmanager : MonoBehaviour
 {
     public Textcontrol levelInfo;
-    int currentLevel = 0;
     public bool gamePaused = false;
     public GameObject winScreen;
 
     LevelInfo lvl;
+
+    public Material screenFade;
 
     //new
     public class Atom
@@ -74,7 +75,12 @@ public class Levelmanager : MonoBehaviour
             lvl.YouWon();
         }
 
+
         SceneManager.LoadScene("levelTransition");
+
+        //doing later: grab screen color object and fade it until it's completely opaque
+        //StartCoroutine("FadeIn");
+
         /*
         Orbit[] interactiveParticles = FindObjectsOfType<Orbit>();
 
@@ -97,6 +103,26 @@ public class Levelmanager : MonoBehaviour
 
     }
 
+    //skipping for now. Setting up a fade out by iterating on a number until it reaches one, and assigning that to the alpha (transparency) of the material
+    IEnumerator FadeIn()
+    {
+        Color color = screenFade.color;
+
+        float a = 0f;
+        while (a<1.0f)
+        {
+            //this makes the coroutine wait for x seconds.
+            yield return new WaitForSeconds(.03f);
+
+            
+            color.a += .01f;
+            //assign the new color that's a little less transparent to the material's color
+            screenFade.color = color;
+        }
+        //after that's done load scene
+        SceneManager.LoadScene("levelTransition");
+
+    }
     public void TogglePause()
     {
         gamePaused = !gamePaused;

@@ -739,3 +739,1491 @@ Total: 4.931700 ms (FindLiveObjects: 0.327000 ms CreateObjectMapping: 0.173200 m
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.035687 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.96 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\contr\Documents\G\Dev\Unity\VRChem\Lesson\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\contr\Documents\G\Dev\Unity\VRChem\Lesson\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
+
+(Filename: C:/Users/contr/Documents/G/Dev/Unity/VRChem/Lesson/Library/PackageCache/com.unity.xr.oculus@1.10.0/Runtime/OculusLoader.cs Line: 250)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.549 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 3.46 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.17 ms.
+Unloading 3269 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 146.9 MB.
+System memory in use after: 147.1 MB.
+
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 4041.
+Total: 13.103800 ms (FindLiveObjects: 2.488200 ms CreateObjectMapping: 4.502100 ms MarkObjects: 6.073700 ms  DeleteObjects: 0.036600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 324.998085 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TextMeshSpawner.cs
+  artifactKey: Guid(76c11bbcfddf44e0ba17d6c2751c8d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TextMeshSpawner.cs using Guid(76c11bbcfddf44e0ba17d6c2751c8d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c9e24787e8482570a04934bdfadbff2') in 0.020085 seconds
+  Import took 0.029292 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.025630 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TextMeshSpawner.cs
+  artifactKey: Guid(76c11bbcfddf44e0ba17d6c2751c8d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TextMeshSpawner.cs using Guid(76c11bbcfddf44e0ba17d6c2751c8d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c9e24787e8482570a04934bdfadbff2') in 0.004156 seconds
+  Import took 0.018517 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.139372 seconds.
+  path: Assets/ParticleSpawn.cs
+  artifactKey: Guid(4159afaa08ed4454491db277cbea1695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParticleSpawn.cs using Guid(4159afaa08ed4454491db277cbea1695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df08e5bc5fca0c88091c78f58b2055be') in 0.011210 seconds
+  Import took 0.025666 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 70.110525 seconds.
+  path: Assets/ParticleSpawn.cs
+  artifactKey: Guid(4159afaa08ed4454491db277cbea1695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParticleSpawn.cs using Guid(4159afaa08ed4454491db277cbea1695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87c914ef4cccf5ded99404f00866afaa') in 0.002736 seconds
+  Import took 0.011516 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007145 seconds.
+  path: Assets/ParticleSpawn.cs
+  artifactKey: Guid(4159afaa08ed4454491db277cbea1695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParticleSpawn.cs using Guid(4159afaa08ed4454491db277cbea1695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87c914ef4cccf5ded99404f00866afaa') in 0.009955 seconds
+  Import took 0.020414 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.716303 seconds.
+  path: Assets/ParticleSpawn.cs
+  artifactKey: Guid(4159afaa08ed4454491db277cbea1695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParticleSpawn.cs using Guid(4159afaa08ed4454491db277cbea1695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e5dd54d35b264397915c660c0ed8a4b') in 0.007658 seconds
+  Import took 0.029017 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001764 seconds.
+  path: Assets/ParticleSpawn.cs
+  artifactKey: Guid(4159afaa08ed4454491db277cbea1695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParticleSpawn.cs using Guid(4159afaa08ed4454491db277cbea1695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e5dd54d35b264397915c660c0ed8a4b') in 0.007607 seconds
+  Import took 0.019601 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 55.556433 seconds.
+  path: Assets/ParticleSpawn.cs
+  artifactKey: Guid(4159afaa08ed4454491db277cbea1695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParticleSpawn.cs using Guid(4159afaa08ed4454491db277cbea1695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4741fdf463b2b729ae1afd5611589add') in 0.008460 seconds
+  Import took 0.027935 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002208 seconds.
+  path: Assets/ParticleSpawn.cs
+  artifactKey: Guid(4159afaa08ed4454491db277cbea1695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParticleSpawn.cs using Guid(4159afaa08ed4454491db277cbea1695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4741fdf463b2b729ae1afd5611589add') in 0.003706 seconds
+  Import took 0.015106 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.846806 seconds.
+  path: Assets/ParticleSpawn.cs
+  artifactKey: Guid(4159afaa08ed4454491db277cbea1695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParticleSpawn.cs using Guid(4159afaa08ed4454491db277cbea1695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d922e80c0660f6d3f97316a65834cc6') in 0.004428 seconds
+  Import took 0.018913 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003921 seconds.
+  path: Assets/ParticleSpawn.cs
+  artifactKey: Guid(4159afaa08ed4454491db277cbea1695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParticleSpawn.cs using Guid(4159afaa08ed4454491db277cbea1695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d922e80c0660f6d3f97316a65834cc6') in 0.002855 seconds
+  Import took 0.012333 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.961370 seconds.
+  path: Assets/ParticleSpawn.cs
+  artifactKey: Guid(4159afaa08ed4454491db277cbea1695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParticleSpawn.cs using Guid(4159afaa08ed4454491db277cbea1695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02be67b24e7d2e7c8e63b7cd93dd37e6') in 0.002744 seconds
+  Import took 0.016397 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001206 seconds.
+  path: Assets/ParticleSpawn.cs
+  artifactKey: Guid(4159afaa08ed4454491db277cbea1695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParticleSpawn.cs using Guid(4159afaa08ed4454491db277cbea1695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02be67b24e7d2e7c8e63b7cd93dd37e6') in 0.006612 seconds
+  Import took 0.016660 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.015135 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.42 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.38 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\contr\Documents\G\Dev\Unity\VRChem\Lesson\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\contr\Documents\G\Dev\Unity\VRChem\Lesson\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
+
+(Filename: C:/Users/contr/Documents/G/Dev/Unity/VRChem/Lesson/Library/PackageCache/com.unity.xr.oculus@1.10.0/Runtime/OculusLoader.cs Line: 250)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.081 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.13 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+Unloading 3269 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 146.9 MB.
+System memory in use after: 147.1 MB.
+
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 4044.
+Total: 5.052300 ms (FindLiveObjects: 0.766300 ms CreateObjectMapping: 0.489500 ms MarkObjects: 3.763200 ms  DeleteObjects: 0.031500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 41.104915 seconds.
+  path: Assets/Art Assets/PreFabs/Red - Proton.prefab
+  artifactKey: Guid(dd22632362a0748da91e0d8f01d391b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/PreFabs/Red - Proton.prefab using Guid(dd22632362a0748da91e0d8f01d391b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8da8ecdd8bfa4e2171c32755d4c7ac8c') in 0.406631 seconds
+  Import took 0.415539 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.478507 seconds.
+  path: Assets/Art Assets/PreFabs/Red - Proton.prefab
+  artifactKey: Guid(dd22632362a0748da91e0d8f01d391b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/PreFabs/Red - Proton.prefab using Guid(dd22632362a0748da91e0d8f01d391b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bce4b18bf4c0a0e45eb276e54e2c4db7') in 0.068176 seconds
+  Import took 0.081036 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.656746 seconds.
+  path: Assets/Art Assets/PreFabs/Red - Proton.prefab
+  artifactKey: Guid(dd22632362a0748da91e0d8f01d391b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/PreFabs/Red - Proton.prefab using Guid(dd22632362a0748da91e0d8f01d391b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b2f8eeeaf7ecb0d966ab4647ba80430') in 0.058546 seconds
+  Import took 0.067726 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.017249 seconds.
+  path: Assets/Art Assets/PreFabs/Red - Proton.prefab
+  artifactKey: Guid(dd22632362a0748da91e0d8f01d391b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/PreFabs/Red - Proton.prefab using Guid(dd22632362a0748da91e0d8f01d391b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9d7c6e43935b4bc2cea95c4c5334a76') in 0.044118 seconds
+  Import took 0.065998 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.460198 seconds.
+  path: Assets/Art Assets/PreFabs/Red - Proton.prefab
+  artifactKey: Guid(dd22632362a0748da91e0d8f01d391b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/PreFabs/Red - Proton.prefab using Guid(dd22632362a0748da91e0d8f01d391b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1672d3a5dccd09ba8323acd5010cbc31') in 0.048788 seconds
+  Import took 0.055547 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.732328 seconds.
+  path: Assets/Art Assets/PreFabs/Red - Proton.prefab
+  artifactKey: Guid(dd22632362a0748da91e0d8f01d391b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/PreFabs/Red - Proton.prefab using Guid(dd22632362a0748da91e0d8f01d391b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6db74f95065c36e7263bf2c3e880cb4e') in 0.053214 seconds
+  Import took 0.065143 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.141560 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 7.99 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.26 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\contr\Documents\G\Dev\Unity\VRChem\Lesson\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\contr\Documents\G\Dev\Unity\VRChem\Lesson\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
+
+(Filename: C:/Users/contr/Documents/G/Dev/Unity/VRChem/Lesson/Library/PackageCache/com.unity.xr.oculus@1.10.0/Runtime/OculusLoader.cs Line: 250)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  6.580 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.08 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
+Unloading 3269 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 147.0 MB.
+System memory in use after: 147.3 MB.
+
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 4083.
+Total: 85.092300 ms (FindLiveObjects: 6.415200 ms CreateObjectMapping: 1.370500 ms MarkObjects: 76.986500 ms  DeleteObjects: 0.308500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.083520 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.07 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.13 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\contr\Documents\G\Dev\Unity\VRChem\Lesson\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\contr\Documents\G\Dev\Unity\VRChem\Lesson\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
+
+(Filename: C:/Users/contr/Documents/G/Dev/Unity/VRChem/Lesson/Library/PackageCache/com.unity.xr.oculus@1.10.0/Runtime/OculusLoader.cs Line: 250)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.921 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 7.72 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.18 ms.
+Unloading 3270 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 147.1 MB.
+System memory in use after: 147.3 MB.
+
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 4087.
+Total: 11.243100 ms (FindLiveObjects: 0.347300 ms CreateObjectMapping: 0.162900 ms MarkObjects: 10.045600 ms  DeleteObjects: 0.681000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.019661 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.38 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\contr\Documents\G\Dev\Unity\VRChem\Lesson\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\contr\Documents\G\Dev\Unity\VRChem\Lesson\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
+
+(Filename: C:/Users/contr/Documents/G/Dev/Unity/VRChem/Lesson/Library/PackageCache/com.unity.xr.oculus@1.10.0/Runtime/OculusLoader.cs Line: 250)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  3.100 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.00 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+Unloading 3270 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 147.1 MB.
+System memory in use after: 147.3 MB.
+
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 4090.
+Total: 15.273900 ms (FindLiveObjects: 0.419600 ms CreateObjectMapping: 0.175900 ms MarkObjects: 14.379600 ms  DeleteObjects: 0.296800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 1686.991370 seconds.
+  path: Assets/Scenes/levelTransition.unity
+  artifactKey: Guid(a615e9ea40dc48e42909a8c37d60429a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/levelTransition.unity using Guid(a615e9ea40dc48e42909a8c37d60429a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2fa47da5da50ff467059a4f908c2eb7') in 0.044192 seconds
+  Import took 0.064965 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.322583 seconds.
+  path: Assets/Scenes/912.unity
+  artifactKey: Guid(25131d78e25fb42d3a54f7a7fe3cd3ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/912.unity using Guid(25131d78e25fb42d3a54f7a7fe3cd3ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bd4dc86128d810393e82951b1ea5d18') in 0.008969 seconds
+  Import took 0.039852 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.081655 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 7.39 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.13 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\contr\Documents\G\Dev\Unity\VRChem\Lesson\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\contr\Documents\G\Dev\Unity\VRChem\Lesson\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
+
+(Filename: C:/Users/contr/Documents/G/Dev/Unity/VRChem/Lesson/Library/PackageCache/com.unity.xr.oculus@1.10.0/Runtime/OculusLoader.cs Line: 250)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  3.167 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.96 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+Unloading 3270 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 147.1 MB.
+System memory in use after: 147.3 MB.
+
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 4093.
+Total: 5.348000 ms (FindLiveObjects: 0.631800 ms CreateObjectMapping: 0.366600 ms MarkObjects: 3.823700 ms  DeleteObjects: 0.523900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.015567 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.94 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\contr\Documents\G\Dev\Unity\VRChem\Lesson\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\contr\Documents\G\Dev\Unity\VRChem\Lesson\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
+
+(Filename: C:/Users/contr/Documents/G/Dev/Unity/VRChem/Lesson/Library/PackageCache/com.unity.xr.oculus@1.10.0/Runtime/OculusLoader.cs Line: 250)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  4.678 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.16 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
+Unloading 3270 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 147.1 MB.
+System memory in use after: 147.3 MB.
+
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 4096.
+Total: 4.332400 ms (FindLiveObjects: 0.576800 ms CreateObjectMapping: 0.219400 ms MarkObjects: 3.482800 ms  DeleteObjects: 0.052300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.061143 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 9.00 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.80 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\contr\Documents\G\Dev\Unity\VRChem\Lesson\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\contr\Documents\G\Dev\Unity\VRChem\Lesson\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
+
+(Filename: C:/Users/contr/Documents/G/Dev/Unity/VRChem/Lesson/Library/PackageCache/com.unity.xr.oculus@1.10.0/Runtime/OculusLoader.cs Line: 250)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  6.894 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.08 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Unloading 3270 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 147.1 MB.
+System memory in use after: 147.4 MB.
+
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 4099.
+Total: 7.792000 ms (FindLiveObjects: 0.537800 ms CreateObjectMapping: 1.265000 ms MarkObjects: 5.551100 ms  DeleteObjects: 0.436500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009974 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 4.72 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.58 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\contr\Documents\G\Dev\Unity\VRChem\Lesson\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\contr\Documents\G\Dev\Unity\VRChem\Lesson\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
+
+(Filename: C:/Users/contr/Documents/G/Dev/Unity/VRChem/Lesson/Library/PackageCache/com.unity.xr.oculus@1.10.0/Runtime/OculusLoader.cs Line: 250)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  3.491 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 3.61 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.15 ms.
+Unloading 3270 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 147.1 MB.
+System memory in use after: 147.4 MB.
+
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 4102.
+Total: 10.924300 ms (FindLiveObjects: 3.945700 ms CreateObjectMapping: 1.127000 ms MarkObjects: 5.704700 ms  DeleteObjects: 0.145300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.019904 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.08 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.13 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\contr\Documents\G\Dev\Unity\VRChem\Lesson\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\contr\Documents\G\Dev\Unity\VRChem\Lesson\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
+
+(Filename: C:/Users/contr/Documents/G/Dev/Unity/VRChem/Lesson/Library/PackageCache/com.unity.xr.oculus@1.10.0/Runtime/OculusLoader.cs Line: 250)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  7.307 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.91 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Unloading 3270 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 147.1 MB.
+System memory in use after: 147.4 MB.
+
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 4105.
+Total: 4.214100 ms (FindLiveObjects: 0.731100 ms CreateObjectMapping: 0.290200 ms MarkObjects: 3.159100 ms  DeleteObjects: 0.032400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.105488 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 7.55 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.13 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\contr\Documents\G\Dev\Unity\VRChem\Lesson\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\contr\Documents\G\Dev\Unity\VRChem\Lesson\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
+
+(Filename: C:/Users/contr/Documents/G/Dev/Unity/VRChem/Lesson/Library/PackageCache/com.unity.xr.oculus@1.10.0/Runtime/OculusLoader.cs Line: 250)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  5.432 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 8.58 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.18 ms.
+Unloading 3270 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 147.1 MB.
+System memory in use after: 147.4 MB.
+
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 4108.
+Total: 4.516000 ms (FindLiveObjects: 0.487100 ms CreateObjectMapping: 0.303700 ms MarkObjects: 3.606800 ms  DeleteObjects: 0.116900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.031518 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 5.92 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.19 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\contr\Documents\G\Dev\Unity\VRChem\Lesson\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\contr\Documents\G\Dev\Unity\VRChem\Lesson\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
+
+(Filename: C:/Users/contr/Documents/G/Dev/Unity/VRChem/Lesson/Library/PackageCache/com.unity.xr.oculus@1.10.0/Runtime/OculusLoader.cs Line: 250)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  5.274 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.09 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+Unloading 3270 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 147.2 MB.
+System memory in use after: 147.4 MB.
+
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 4111.
+Total: 11.387500 ms (FindLiveObjects: 0.488200 ms CreateObjectMapping: 0.206700 ms MarkObjects: 10.661900 ms  DeleteObjects: 0.029500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.056151 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.98 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\contr\Documents\G\Dev\Unity\VRChem\Lesson\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\contr\Documents\G\Dev\Unity\VRChem\Lesson\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
+
+(Filename: C:/Users/contr/Documents/G/Dev/Unity/VRChem/Lesson/Library/PackageCache/com.unity.xr.oculus@1.10.0/Runtime/OculusLoader.cs Line: 250)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  3.178 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 3.40 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.14 ms.
+Unloading 3270 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 147.2 MB.
+System memory in use after: 147.4 MB.
+
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 4114.
+Total: 10.302500 ms (FindLiveObjects: 1.459900 ms CreateObjectMapping: 3.185600 ms MarkObjects: 5.588200 ms  DeleteObjects: 0.064300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.125528 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.00 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\contr\Documents\G\Dev\Unity\VRChem\Lesson\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\contr\Documents\G\Dev\Unity\VRChem\Lesson\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
+
+(Filename: C:/Users/contr/Documents/G/Dev/Unity/VRChem/Lesson/Library/PackageCache/com.unity.xr.oculus@1.10.0/Runtime/OculusLoader.cs Line: 250)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  3.467 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.97 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+Unloading 3270 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 147.2 MB.
+System memory in use after: 147.4 MB.
+
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 4117.
+Total: 8.852800 ms (FindLiveObjects: 4.767600 ms CreateObjectMapping: 0.605900 ms MarkObjects: 3.376900 ms  DeleteObjects: 0.099100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.019831 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 6.20 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.22 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\contr\Documents\G\Dev\Unity\VRChem\Lesson\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\contr\Documents\G\Dev\Unity\VRChem\Lesson\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
+
+(Filename: C:/Users/contr/Documents/G/Dev/Unity/VRChem/Lesson/Library/PackageCache/com.unity.xr.oculus@1.10.0/Runtime/OculusLoader.cs Line: 250)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  4.019 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 4.22 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.48 ms.
+Unloading 3270 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 147.2 MB.
+System memory in use after: 147.4 MB.
+
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 4120.
+Total: 22.782300 ms (FindLiveObjects: 0.797300 ms CreateObjectMapping: 12.594800 ms MarkObjects: 8.970300 ms  DeleteObjects: 0.416400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.045620 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.19 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\contr\Documents\G\Dev\Unity\VRChem\Lesson\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\contr\Documents\G\Dev\Unity\VRChem\Lesson\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
+
+(Filename: C:/Users/contr/Documents/G/Dev/Unity/VRChem/Lesson/Library/PackageCache/com.unity.xr.oculus@1.10.0/Runtime/OculusLoader.cs Line: 250)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  4.987 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 5.09 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.18 ms.
+Unloading 3270 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 147.2 MB.
+System memory in use after: 147.4 MB.
+
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 4123.
+Total: 4.982500 ms (FindLiveObjects: 0.664300 ms CreateObjectMapping: 0.393300 ms MarkObjects: 3.847900 ms  DeleteObjects: 0.075300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.016855 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.72 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.25 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\contr\Documents\G\Dev\Unity\VRChem\Lesson\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\contr\Documents\G\Dev\Unity\VRChem\Lesson\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
+
+(Filename: C:/Users/contr/Documents/G/Dev/Unity/VRChem/Lesson/Library/PackageCache/com.unity.xr.oculus@1.10.0/Runtime/OculusLoader.cs Line: 250)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.733 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 3.94 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.16 ms.
+Unloading 3270 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 147.2 MB.
+System memory in use after: 147.5 MB.
+
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 4126.
+Total: 10.417100 ms (FindLiveObjects: 0.475700 ms CreateObjectMapping: 2.171200 ms MarkObjects: 7.700900 ms  DeleteObjects: 0.068200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.016871 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.95 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.14 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\contr\Documents\G\Dev\Unity\VRChem\Lesson\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\contr\Documents\G\Dev\Unity\VRChem\Lesson\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
+
+(Filename: C:/Users/contr/Documents/G/Dev/Unity/VRChem/Lesson/Library/PackageCache/com.unity.xr.oculus@1.10.0/Runtime/OculusLoader.cs Line: 250)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  4.653 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 5.43 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.49 ms.
+Unloading 3270 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 147.2 MB.
+System memory in use after: 147.5 MB.
+
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 4129.
+Total: 3.980800 ms (FindLiveObjects: 0.437900 ms CreateObjectMapping: 0.233700 ms MarkObjects: 3.239900 ms  DeleteObjects: 0.067600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013984 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.95 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\contr\Documents\G\Dev\Unity\VRChem\Lesson\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\contr\Documents\G\Dev\Unity\VRChem\Lesson\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
+
+(Filename: C:/Users/contr/Documents/G/Dev/Unity/VRChem/Lesson/Library/PackageCache/com.unity.xr.oculus@1.10.0/Runtime/OculusLoader.cs Line: 250)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.907 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.95 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Unloading 3270 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 147.2 MB.
+System memory in use after: 147.5 MB.
+
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 4132.
+Total: 11.244300 ms (FindLiveObjects: 0.418600 ms CreateObjectMapping: 0.164200 ms MarkObjects: 8.093000 ms  DeleteObjects: 2.562600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.087138 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.38 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.21 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\contr\Documents\G\Dev\Unity\VRChem\Lesson\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\contr\Documents\G\Dev\Unity\VRChem\Lesson\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
+
+(Filename: C:/Users/contr/Documents/G/Dev/Unity/VRChem/Lesson/Library/PackageCache/com.unity.xr.oculus@1.10.0/Runtime/OculusLoader.cs Line: 250)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  4.184 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.10 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+Unloading 3270 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 147.3 MB.
+System memory in use after: 147.5 MB.
+
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 4135.
+Total: 11.050000 ms (FindLiveObjects: 0.433900 ms CreateObjectMapping: 0.231900 ms MarkObjects: 10.046100 ms  DeleteObjects: 0.336600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.015360 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.03 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\contr\Documents\G\Dev\Unity\VRChem\Lesson\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\contr\Documents\G\Dev\Unity\VRChem\Lesson\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
+
+(Filename: C:/Users/contr/Documents/G/Dev/Unity/VRChem/Lesson/Library/PackageCache/com.unity.xr.oculus@1.10.0/Runtime/OculusLoader.cs Line: 250)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  4.978 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 2.33 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.16 ms.
+Unloading 3270 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 147.3 MB.
+System memory in use after: 147.5 MB.
+
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 4138.
+Total: 13.213700 ms (FindLiveObjects: 0.855400 ms CreateObjectMapping: 0.400500 ms MarkObjects: 11.886700 ms  DeleteObjects: 0.068800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.038330 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 10.99 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.82 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\contr\Documents\G\Dev\Unity\VRChem\Lesson\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\contr\Documents\G\Dev\Unity\VRChem\Lesson\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
+
+(Filename: C:/Users/contr/Documents/G/Dev/Unity/VRChem/Lesson/Library/PackageCache/com.unity.xr.oculus@1.10.0/Runtime/OculusLoader.cs Line: 250)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  6.473 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 8.23 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.28 ms.
+Unloading 3270 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 147.3 MB.
+System memory in use after: 147.5 MB.
+
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 4141.
+Total: 19.185900 ms (FindLiveObjects: 3.649800 ms CreateObjectMapping: 0.520100 ms MarkObjects: 14.683200 ms  DeleteObjects: 0.330600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.057738 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.01 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\contr\Documents\G\Dev\Unity\VRChem\Lesson\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\contr\Documents\G\Dev\Unity\VRChem\Lesson\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
+
+(Filename: C:/Users/contr/Documents/G/Dev/Unity/VRChem/Lesson/Library/PackageCache/com.unity.xr.oculus@1.10.0/Runtime/OculusLoader.cs Line: 250)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  3.993 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 10.10 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 5.41 ms.
+Unloading 3270 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 147.3 MB.
+System memory in use after: 147.5 MB.
+
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 4144.
+Total: 27.827000 ms (FindLiveObjects: 1.560700 ms CreateObjectMapping: 0.688000 ms MarkObjects: 25.209900 ms  DeleteObjects: 0.362600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.032760 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.29 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.13 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\contr\Documents\G\Dev\Unity\VRChem\Lesson\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\contr\Documents\G\Dev\Unity\VRChem\Lesson\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
+
+(Filename: C:/Users/contr/Documents/G/Dev/Unity/VRChem/Lesson/Library/PackageCache/com.unity.xr.oculus@1.10.0/Runtime/OculusLoader.cs Line: 250)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  4.851 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.27 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.17 ms.
+Unloading 3270 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 147.3 MB.
+System memory in use after: 147.5 MB.
+
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 4147.
+Total: 19.231400 ms (FindLiveObjects: 6.169000 ms CreateObjectMapping: 0.796600 ms MarkObjects: 12.141600 ms  DeleteObjects: 0.120900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.027092 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.91 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\contr\Documents\G\Dev\Unity\VRChem\Lesson\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\contr\Documents\G\Dev\Unity\VRChem\Lesson\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
+
+(Filename: C:/Users/contr/Documents/G/Dev/Unity/VRChem/Lesson/Library/PackageCache/com.unity.xr.oculus@1.10.0/Runtime/OculusLoader.cs Line: 250)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.394 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.13 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.13 ms.
+Unloading 3270 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 147.3 MB.
+System memory in use after: 147.6 MB.
+
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 4150.
+Total: 14.595800 ms (FindLiveObjects: 2.496100 ms CreateObjectMapping: 0.391400 ms MarkObjects: 11.643900 ms  DeleteObjects: 0.059700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.015656 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.07 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\contr\Documents\G\Dev\Unity\VRChem\Lesson\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\contr\Documents\G\Dev\Unity\VRChem\Lesson\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
+
+(Filename: C:/Users/contr/Documents/G/Dev/Unity/VRChem/Lesson/Library/PackageCache/com.unity.xr.oculus@1.10.0/Runtime/OculusLoader.cs Line: 250)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  4.006 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.08 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+Unloading 3270 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 147.3 MB.
+System memory in use after: 147.6 MB.
+
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 4153.
+Total: 6.036900 ms (FindLiveObjects: 1.005300 ms CreateObjectMapping: 0.371700 ms MarkObjects: 4.556800 ms  DeleteObjects: 0.093400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 1396.042288 seconds.
+  path: Assets/Art Assets/PreFabs/Green - Electron.prefab
+  artifactKey: Guid(360b9ea45a7c140918df6bab1bbb01eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/PreFabs/Green - Electron.prefab using Guid(360b9ea45a7c140918df6bab1bbb01eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6e172b036a3f9f6d8222951ba470b5f') in 1.100506 seconds
+  Import took 1.114697 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000508 seconds.
+  path: Assets/Art Assets/PreFabs/White Neutron.prefab
+  artifactKey: Guid(325e3c12fa1fc443a90458702ec3f3a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/PreFabs/White Neutron.prefab using Guid(325e3c12fa1fc443a90458702ec3f3a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c39d993a611b5f1aa2d8b6a43787339b') in 0.180116 seconds
+  Import took 0.193901 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001527 seconds.
+  path: Assets/Art Assets/PreFabs/Green - Electron.prefab
+  artifactKey: Guid(360b9ea45a7c140918df6bab1bbb01eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/PreFabs/Green - Electron.prefab using Guid(360b9ea45a7c140918df6bab1bbb01eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6e172b036a3f9f6d8222951ba470b5f') in 0.098257 seconds
+  Import took 0.153679 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001443 seconds.
+  path: Assets/Art Assets/PreFabs/Red - Proton.prefab
+  artifactKey: Guid(dd22632362a0748da91e0d8f01d391b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/PreFabs/Red - Proton.prefab using Guid(dd22632362a0748da91e0d8f01d391b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8d1361c3c40dbc24743b7c81bc4b41c') in 0.308522 seconds
+  Import took 0.347644 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.845506 seconds.
+  path: Assets/Art Assets/PreFabs/Red - Proton.prefab
+  artifactKey: Guid(dd22632362a0748da91e0d8f01d391b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/PreFabs/Red - Proton.prefab using Guid(dd22632362a0748da91e0d8f01d391b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68cc5344631b2ce0a749687f1db2d93a') in 0.081572 seconds
+  Import took 0.091535 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.028221 seconds.
+  path: Assets/Art Assets/PreFabs/Green - Electron.prefab
+  artifactKey: Guid(360b9ea45a7c140918df6bab1bbb01eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/PreFabs/Green - Electron.prefab using Guid(360b9ea45a7c140918df6bab1bbb01eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55d71248048dc1f0f4ee4a874fe9c9dd') in 0.048273 seconds
+  Import took 0.080398 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.033300 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.14 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\contr\Documents\G\Dev\Unity\VRChem\Lesson\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\contr\Documents\G\Dev\Unity\VRChem\Lesson\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
+
+(Filename: C:/Users/contr/Documents/G/Dev/Unity/VRChem/Lesson/Library/PackageCache/com.unity.xr.oculus@1.10.0/Runtime/OculusLoader.cs Line: 250)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  3.857 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.96 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.32 ms.
+Unloading 3270 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 147.5 MB.
+System memory in use after: 147.7 MB.
+
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 4192.
+Total: 5.416600 ms (FindLiveObjects: 1.556100 ms CreateObjectMapping: 0.500000 ms MarkObjects: 3.319600 ms  DeleteObjects: 0.030500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.047157 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.75 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.25 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\contr\Documents\G\Dev\Unity\VRChem\Lesson\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\contr\Documents\G\Dev\Unity\VRChem\Lesson\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
+
+(Filename: C:/Users/contr/Documents/G/Dev/Unity/VRChem/Lesson/Library/PackageCache/com.unity.xr.oculus@1.10.0/Runtime/OculusLoader.cs Line: 250)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  5.810 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.08 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
+Unloading 3270 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 147.5 MB.
+System memory in use after: 147.7 MB.
+
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 4195.
+Total: 4.298800 ms (FindLiveObjects: 0.553100 ms CreateObjectMapping: 0.214500 ms MarkObjects: 3.498600 ms  DeleteObjects: 0.030900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 164.892613 seconds.
+  path: Assets/Art Assets/PreFabs/Green - Electron.prefab
+  artifactKey: Guid(360b9ea45a7c140918df6bab1bbb01eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/PreFabs/Green - Electron.prefab using Guid(360b9ea45a7c140918df6bab1bbb01eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abb13608e1e4c44afe83df7221b57a8b') in 0.556181 seconds
+  Import took 0.584629 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Art Assets/PreFabs/Red - Proton.prefab
+  artifactKey: Guid(dd22632362a0748da91e0d8f01d391b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/PreFabs/Red - Proton.prefab using Guid(dd22632362a0748da91e0d8f01d391b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d98fc6b1d3dd3ad4fcf9a7bfec60d6f') in 0.254004 seconds
+  Import took 0.272710 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000642 seconds.
+  path: Assets/Art Assets/PreFabs/Green - Electron.prefab
+  artifactKey: Guid(360b9ea45a7c140918df6bab1bbb01eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/PreFabs/Green - Electron.prefab using Guid(360b9ea45a7c140918df6bab1bbb01eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abb13608e1e4c44afe83df7221b57a8b') in 0.051247 seconds
+  Import took 0.079677 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.659155 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(50016894b2ba3407f85e97dfac485c9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(50016894b2ba3407f85e97dfac485c9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c41764c6c715a86f6c18e25f9aaa3ef') in 0.013471 seconds
+  Import took 0.049830 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.042401 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.69 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.13 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\contr\Documents\G\Dev\Unity\VRChem\Lesson\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\contr\Documents\G\Dev\Unity\VRChem\Lesson\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
+
+(Filename: C:/Users/contr/Documents/G/Dev/Unity/VRChem/Lesson/Library/PackageCache/com.unity.xr.oculus@1.10.0/Runtime/OculusLoader.cs Line: 250)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  3.705 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 4.59 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 1.67 ms.
+Unloading 3270 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 147.6 MB.
+System memory in use after: 147.9 MB.
+
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 4234.
+Total: 5.050600 ms (FindLiveObjects: 0.837200 ms CreateObjectMapping: 0.386300 ms MarkObjects: 3.790800 ms  DeleteObjects: 0.034600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.052642 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.96 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\contr\Documents\G\Dev\Unity\VRChem\Lesson\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\contr\Documents\G\Dev\Unity\VRChem\Lesson\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
+
+(Filename: C:/Users/contr/Documents/G/Dev/Unity/VRChem/Lesson/Library/PackageCache/com.unity.xr.oculus@1.10.0/Runtime/OculusLoader.cs Line: 250)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  4.666 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 4.08 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 4.21 ms.
+Unloading 3270 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 147.6 MB.
+System memory in use after: 147.9 MB.
+
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 4237.
+Total: 38.218700 ms (FindLiveObjects: 2.423800 ms CreateObjectMapping: 0.442900 ms MarkObjects: 35.166200 ms  DeleteObjects: 0.174600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 259.200846 seconds.
+  path: Assets/InputSystem.inputsettings.asset
+  artifactKey: Guid(219ac81e2ae0a464d9a47720421d4dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InputSystem.inputsettings.asset using Guid(219ac81e2ae0a464d9a47720421d4dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a7088bd4108e229d47bd4e64f53151b') in 0.350402 seconds
+  Import took 0.398896 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.039194 seconds.
+  path: Assets/Scenes/912.unity
+  artifactKey: Guid(25131d78e25fb42d3a54f7a7fe3cd3ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/912.unity using Guid(25131d78e25fb42d3a54f7a7fe3cd3ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbf8cefeb2205085dc50e54ab08fc7a6') in 0.120703 seconds
+  Import took 0.175995 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.957744 seconds.
+  path: Assets/Scenes/912.unity
+  artifactKey: Guid(25131d78e25fb42d3a54f7a7fe3cd3ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/912.unity using Guid(25131d78e25fb42d3a54f7a7fe3cd3ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbf8cefeb2205085dc50e54ab08fc7a6') in 0.040045 seconds
+  Import took 0.057300 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.268497 seconds.
+  path: Assets/Scenes/testScene.unity
+  artifactKey: Guid(a556a78dc51ad804187f7793d63937d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/testScene.unity using Guid(a556a78dc51ad804187f7793d63937d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fde99338044535bfcaad9e7d2e1cc7c2') in 0.014713 seconds
+  Import took 0.033652 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.033206 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 3.07 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.41 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\contr\Documents\G\Dev\Unity\VRChem\Lesson\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\contr\Documents\G\Dev\Unity\VRChem\Lesson\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
+
+(Filename: C:/Users/contr/Documents/G/Dev/Unity/VRChem/Lesson/Library/PackageCache/com.unity.xr.oculus@1.10.0/Runtime/OculusLoader.cs Line: 250)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.746 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 2.66 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.17 ms.
+Unloading 3270 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 147.7 MB.
+System memory in use after: 147.9 MB.
+
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 4240.
+Total: 4.950800 ms (FindLiveObjects: 0.503200 ms CreateObjectMapping: 0.202200 ms MarkObjects: 4.186600 ms  DeleteObjects: 0.057100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 24.698404 seconds.
+  path: Assets/Art Assets/PreFabs/Spawners.prefab
+  artifactKey: Guid(75f818959c2b4f94c96e1cf21bf86b15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/PreFabs/Spawners.prefab using Guid(75f818959c2b4f94c96e1cf21bf86b15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfc0e86c2eeb5b56378ca1a164b7480b') in 0.403235 seconds
+  Import took 0.411066 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.018666 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 8.02 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.21 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\contr\Documents\G\Dev\Unity\VRChem\Lesson\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\contr\Documents\G\Dev\Unity\VRChem\Lesson\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
+
+(Filename: C:/Users/contr/Documents/G/Dev/Unity/VRChem/Lesson/Library/PackageCache/com.unity.xr.oculus@1.10.0/Runtime/OculusLoader.cs Line: 250)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  3.365 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.02 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+Unloading 3270 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 147.8 MB.
+System memory in use after: 148.0 MB.
+
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 4279.
+Total: 6.531600 ms (FindLiveObjects: 0.545400 ms CreateObjectMapping: 0.319600 ms MarkObjects: 5.533000 ms  DeleteObjects: 0.128900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.015031 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 8.27 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.28 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\contr\Documents\G\Dev\Unity\VRChem\Lesson\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\contr\Documents\G\Dev\Unity\VRChem\Lesson\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
+
+(Filename: C:/Users/contr/Documents/G/Dev/Unity/VRChem/Lesson/Library/PackageCache/com.unity.xr.oculus@1.10.0/Runtime/OculusLoader.cs Line: 250)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  3.324 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 4.51 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+Unloading 3270 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 147.8 MB.
+System memory in use after: 148.0 MB.
+
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 4282.
+Total: 7.736800 ms (FindLiveObjects: 0.375900 ms CreateObjectMapping: 0.192900 ms MarkObjects: 7.120600 ms  DeleteObjects: 0.045800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.016622 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.24 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\contr\Documents\G\Dev\Unity\VRChem\Lesson\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\contr\Documents\G\Dev\Unity\VRChem\Lesson\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
+
+(Filename: C:/Users/contr/Documents/G/Dev/Unity/VRChem/Lesson/Library/PackageCache/com.unity.xr.oculus@1.10.0/Runtime/OculusLoader.cs Line: 250)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  3.122 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 3.31 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.32 ms.
+Unloading 3270 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 147.8 MB.
+System memory in use after: 148.1 MB.
+
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 4285.
+Total: 15.327600 ms (FindLiveObjects: 0.834400 ms CreateObjectMapping: 0.391400 ms MarkObjects: 13.686300 ms  DeleteObjects: 0.406200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.020466 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.00 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.16 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\contr\Documents\G\Dev\Unity\VRChem\Lesson\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\contr\Documents\G\Dev\Unity\VRChem\Lesson\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
+
+(Filename: C:/Users/contr/Documents/G/Dev/Unity/VRChem/Lesson/Library/PackageCache/com.unity.xr.oculus@1.10.0/Runtime/OculusLoader.cs Line: 250)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  4.144 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 2.75 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.29 ms.
+Unloading 3270 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 147.8 MB.
+System memory in use after: 148.1 MB.
+
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 4288.
+Total: 14.392100 ms (FindLiveObjects: 0.398600 ms CreateObjectMapping: 0.218000 ms MarkObjects: 13.434300 ms  DeleteObjects: 0.335700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.015901 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.94 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\contr\Documents\G\Dev\Unity\VRChem\Lesson\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\contr\Documents\G\Dev\Unity\VRChem\Lesson\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
+
+(Filename: C:/Users/contr/Documents/G/Dev/Unity/VRChem/Lesson/Library/PackageCache/com.unity.xr.oculus@1.10.0/Runtime/OculusLoader.cs Line: 250)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  3.779 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 10.24 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.39 ms.
+Unloading 3270 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 147.8 MB.
+System memory in use after: 148.1 MB.
+
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 4291.
+Total: 11.473100 ms (FindLiveObjects: 0.415000 ms CreateObjectMapping: 0.230600 ms MarkObjects: 10.723300 ms  DeleteObjects: 0.098100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.028777 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.11 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\contr\Documents\G\Dev\Unity\VRChem\Lesson\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\contr\Documents\G\Dev\Unity\VRChem\Lesson\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
+
+(Filename: C:/Users/contr/Documents/G/Dev/Unity/VRChem/Lesson/Library/PackageCache/com.unity.xr.oculus@1.10.0/Runtime/OculusLoader.cs Line: 250)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  4.035 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 6.72 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 1.69 ms.
+Unloading 3270 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 147.8 MB.
+System memory in use after: 148.1 MB.
+
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 4294.
+Total: 10.503000 ms (FindLiveObjects: 1.302100 ms CreateObjectMapping: 0.631200 ms MarkObjects: 8.501500 ms  DeleteObjects: 0.059600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.025242 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 6.36 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.54 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\contr\Documents\G\Dev\Unity\VRChem\Lesson\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\contr\Documents\G\Dev\Unity\VRChem\Lesson\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
+
+(Filename: C:/Users/contr/Documents/G/Dev/Unity/VRChem/Lesson/Library/PackageCache/com.unity.xr.oculus@1.10.0/Runtime/OculusLoader.cs Line: 250)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  3.212 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 7.07 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.95 ms.
+Unloading 3270 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 147.9 MB.
+System memory in use after: 148.1 MB.
+
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 4297.
+Total: 28.135800 ms (FindLiveObjects: 8.902200 ms CreateObjectMapping: 3.425100 ms MarkObjects: 15.758500 ms  DeleteObjects: 0.048700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.027219 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.15 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.17 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\contr\Documents\G\Dev\Unity\VRChem\Lesson\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\contr\Documents\G\Dev\Unity\VRChem\Lesson\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
+
+(Filename: C:/Users/contr/Documents/G/Dev/Unity/VRChem/Lesson/Library/PackageCache/com.unity.xr.oculus@1.10.0/Runtime/OculusLoader.cs Line: 250)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  8.179 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 13.53 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 2.06 ms.
+Unloading 3270 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 147.9 MB.
+System memory in use after: 148.1 MB.
+
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 4300.
+Total: 25.640000 ms (FindLiveObjects: 1.068700 ms CreateObjectMapping: 0.349100 ms MarkObjects: 23.400500 ms  DeleteObjects: 0.814700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.041864 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.24 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.18 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\contr\Documents\G\Dev\Unity\VRChem\Lesson\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\contr\Documents\G\Dev\Unity\VRChem\Lesson\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
+
+(Filename: C:/Users/contr/Documents/G/Dev/Unity/VRChem/Lesson/Library/PackageCache/com.unity.xr.oculus@1.10.0/Runtime/OculusLoader.cs Line: 250)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  7.155 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 2.48 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.30 ms.
+Unloading 3270 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 147.9 MB.
+System memory in use after: 148.1 MB.
+
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 4303.
+Total: 3.796000 ms (FindLiveObjects: 0.399100 ms CreateObjectMapping: 0.186800 ms MarkObjects: 3.176400 ms  DeleteObjects: 0.032600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000

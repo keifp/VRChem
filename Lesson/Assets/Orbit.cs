@@ -11,6 +11,7 @@ public class Orbit : MonoBehaviour
     Transform center;
     public Vector3 desiredPosition;
 
+    bool justSpawned = true;
 
     Vector3 startPos;
     Vector3 startRot;
@@ -26,11 +27,41 @@ public class Orbit : MonoBehaviour
     {
         startPos = transform.position;
         startRot = transform.rotation.eulerAngles;
-        InvokeRepeating("TestRotationPrint", 3, 1);
     }
 
  
+    //called when an object is grabbed
+    public void Grabbed()
+    {
+        //resetting as if you're grabbing it and it hasn't orbitted
+        firstTimeOrbiting = true;
+        orbit = false;
+        center = null;
+        GetComponent<Rigidbody>().velocity = Vector3.zero;
 
+        //the first time you grab it it should make it so you spawn a new object
+        if (justSpawned)
+        {
+            FindObjectOfType<ParticleSpawn>().GrabbedFromSpawn();
+            justSpawned = false;
+        }
+    }
+
+    private void OnMouseDown()
+    {
+        //resetting as if you're grabbing it and it hasn't orbitted
+        firstTimeOrbiting = true;
+        orbit = false;
+        center = null;
+        GetComponent<Rigidbody>().velocity = Vector3.zero;
+
+        //the first time you grab it it should make it so you spawn a new object
+        if (justSpawned)
+        {
+            FindObjectOfType<ParticleSpawn>().GrabbedFromSpawn();
+            justSpawned = false;
+        }
+    }
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("neutron"))
@@ -50,10 +81,6 @@ public class Orbit : MonoBehaviour
                 particleIndex = FindObjectOfType<atommanager>().currentProtonNum;
 
             }
-
-            Orbit[] Os = FindObjectsOfType<Orbit>();
-
-
         }
     }
 
@@ -69,9 +96,6 @@ public class Orbit : MonoBehaviour
 
     }
 
-    void TestRotationPrint()
-    {
-    }
 
     // Update is called once per frame
     void Update()

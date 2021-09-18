@@ -290,50 +290,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1315686446
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1315686448}
-  - component: {fileID: 1315686447}
-  m_Layer: 0
-  m_Name: tempLvlInfo
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1315686447
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1315686446}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f183af5a732e0184b911f6d74c0cf66e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  currentLevel: 0
---- !u!4 &1315686448
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1315686446}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.3127229, y: 1.6658256, z: 0.34441411}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1760818780
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -422,14 +378,14 @@ PrefabInstance:
     - target: {fileID: 4240000300269115409, guid: 88a38ac707e748945989b393e7c22afd, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1315686447}
+      objectReference: {fileID: 2116499318}
     - target: {fileID: 4240000300269115409, guid: 88a38ac707e748945989b393e7c22afd, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: QuitGame
+      value: QuitGameBtn
       objectReference: {fileID: 0}
     - target: {fileID: 4240000300269115409, guid: 88a38ac707e748945989b393e7c22afd, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: LevelInfo, Assembly-CSharp
+      value: UIButtons, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 4240000300269115411, guid: 88a38ac707e748945989b393e7c22afd, type: 3}
       propertyPath: m_Name
@@ -474,14 +430,14 @@ PrefabInstance:
     - target: {fileID: 4240000300343190053, guid: 88a38ac707e748945989b393e7c22afd, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1315686447}
+      objectReference: {fileID: 2116499318}
     - target: {fileID: 4240000300343190053, guid: 88a38ac707e748945989b393e7c22afd, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: QuitGame
+      value: NextLevelBtn
       objectReference: {fileID: 0}
     - target: {fileID: 4240000300343190053, guid: 88a38ac707e748945989b393e7c22afd, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: LevelInfo, Assembly-CSharp
+      value: UIButtons, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 4240000300343190055, guid: 88a38ac707e748945989b393e7c22afd, type: 3}
       propertyPath: m_Name
@@ -598,14 +554,14 @@ PrefabInstance:
     - target: {fileID: 4240000301292439170, guid: 88a38ac707e748945989b393e7c22afd, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1315686447}
+      objectReference: {fileID: 2116499318}
     - target: {fileID: 4240000301292439170, guid: 88a38ac707e748945989b393e7c22afd, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: Restart
+      value: RestartBtn
       objectReference: {fileID: 0}
     - target: {fileID: 4240000301292439170, guid: 88a38ac707e748945989b393e7c22afd, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: LevelInfo, Assembly-CSharp
+      value: UIButtons, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 4240000301292439171, guid: 88a38ac707e748945989b393e7c22afd, type: 3}
       propertyPath: m_Sprite
@@ -765,3 +721,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 88a38ac707e748945989b393e7c22afd, type: 3}
+--- !u!1 &2116499317 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4240000301319477740, guid: 88a38ac707e748945989b393e7c22afd, type: 3}
+  m_PrefabInstance: {fileID: 2116499316}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2116499318
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2116499317}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 157429d9c12e3e64d9c84ec8c2589008, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

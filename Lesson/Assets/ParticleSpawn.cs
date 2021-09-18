@@ -5,39 +5,18 @@ using UnityEngine;
 
 public class ParticleSpawn : MonoBehaviour
 {
-public GameObject particlePrefab;
+    public GameObject particlePrefab;
     //XRGrabInteractable grab;
-    Vector3 originalposition;
-   List< GameObject> particle = new List<GameObject>();
-    bool particleSpawned = false;
-    SphereCollider particleCollider;
+    List<GameObject> particle = new List<GameObject>();
 
     // Start is called before the first frame update
     void Start()
     {
-       particle.Add(Instantiate(particlePrefab,transform.position,transform.rotation));
-       originalposition = particle[0].transform.position;
-       particle[0].GetComponent<SphereCollider>().enabled=true;
+        particle.Add(Instantiate(particlePrefab, transform.position, transform.rotation));
     }
 
-    // Update is called once per frame
-    void Update()
+    public void GrabbedFromSpawn()
     {
-       if (particle[0].transform.position != originalposition) {
-            if (particleSpawned == false)
-            {
-                particle.Add(Instantiate(particlePrefab, transform.position, transform.rotation));
-                particleSpawned = true;
-                StartCoroutine("collidertimer");
-            }
-            
-        }
-   //if(grab.grab)
-    }
-
-    IEnumerator collidertimer()
-    {
-        yield return new WaitForSeconds(3);
-        particle[1].GetComponent<SphereCollider>().enabled = true;
+        particle.Add(Instantiate(particlePrefab, transform.position, transform.rotation));
     }
 }
