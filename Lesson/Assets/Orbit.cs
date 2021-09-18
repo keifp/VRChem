@@ -17,16 +17,22 @@ public class Orbit : MonoBehaviour
     Vector3 startRot;
 
     float angleDivide = 0;
+
+    [HideInInspector]
     public int particleIndex = 0;
     float rotationAngle;
 
     Vector3 initialOrbitTransform;
     bool firstTimeOrbiting = true;
 
+    [HideInInspector]
+    public ParticleSpawn spawner;
+
     private void Start()
     {
         startPos = transform.position;
         startRot = transform.rotation.eulerAngles;
+
     }
 
  
@@ -42,26 +48,12 @@ public class Orbit : MonoBehaviour
         //the first time you grab it it should make it so you spawn a new object
         if (justSpawned)
         {
-            FindObjectOfType<ParticleSpawn>().GrabbedFromSpawn();
+            spawner.GrabbedFromSpawn();
             justSpawned = false;
         }
     }
 
-    private void OnMouseDown()
-    {
-        //resetting as if you're grabbing it and it hasn't orbitted
-        firstTimeOrbiting = true;
-        orbit = false;
-        center = null;
-        GetComponent<Rigidbody>().velocity = Vector3.zero;
 
-        //the first time you grab it it should make it so you spawn a new object
-        if (justSpawned)
-        {
-            FindObjectOfType<ParticleSpawn>().GrabbedFromSpawn();
-            justSpawned = false;
-        }
-    }
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("neutron"))
