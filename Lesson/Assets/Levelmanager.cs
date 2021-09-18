@@ -11,6 +11,8 @@ public class Levelmanager : MonoBehaviour
     public bool gamePaused = false;
     public GameObject winScreen;
 
+    LevelInfo lvl;
+
     //new
     public class Atom
     {
@@ -31,6 +33,7 @@ public class Levelmanager : MonoBehaviour
 
     void Start()
     {
+        lvl = FindObjectOfType<LevelInfo>();
         //new
         AddAtomlist();
         //new
@@ -40,7 +43,7 @@ public class Levelmanager : MonoBehaviour
         foreach (atommanager neutron in neutrons)
         {
             //new
-            neutron.SetNextLevel(atoms[currentLevel]);
+            neutron.SetNextLevel(atoms[lvl.currentLevel]);
         }
         StartCoroutine("ShowTextAfterTime");
     }
@@ -58,18 +61,21 @@ public class Levelmanager : MonoBehaviour
     IEnumerator ShowTextAfterTime()
     {
         yield return new WaitForSeconds(1.3f);
-        levelInfo.ShowNewText("Level 1: Build A" + atoms[currentLevel].atomName + " Atom");
+        int tempCurrentLvl = lvl.currentLevel + 1;
+        levelInfo.ShowNewText("Level " + tempCurrentLvl + ": Build a " + atoms[lvl.currentLevel].atomName + " atom");
     }
 
     public void NextLevel()
     {
-        currentLevel++;
+        lvl.currentLevel++;
 
-        if(currentLevel >= atoms.Count)
+        if(lvl.currentLevel >= atoms.Count)
         {
-            winScreen.SetActive(true);
-            return;
+            lvl.YouWon();
         }
+
+        SceneManager.LoadScene("levelTransition");
+        /*
         Orbit[] interactiveParticles = FindObjectsOfType<Orbit>();
 
         foreach (Orbit particle in interactiveParticles)
@@ -84,10 +90,11 @@ public class Levelmanager : MonoBehaviour
             //new
             neutron.SetNextLevel(atoms[currentLevel]);
         }
-
+        */
         //new
-        int currentLevelForText = currentLevel + 1;
-        levelInfo.ShowNewText("Level " + currentLevelForText + ": Build A " + atoms[currentLevel].atomName +  " Atom");
+        //int currentLevelForText = lvl.currentLevel + 1;
+        //levelInfo.ShowNewText("Level " + currentLevelForText + ": Build A " + atoms[lvl.currentLevel].atomName +  " Atom");
+
     }
 
     public void TogglePause()
