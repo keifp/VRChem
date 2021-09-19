@@ -53,6 +53,11 @@ public class Orbit : MonoBehaviour
         }
     }
 
+    //when released from had, do first time orbit again so it snaps to correct spot if dragged into neutron
+    public void Released()
+    {
+        firstTimeOrbiting = true;
+    }
 
     private void OnTriggerEnter(Collider other)
     {

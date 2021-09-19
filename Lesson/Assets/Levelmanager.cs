@@ -72,7 +72,7 @@ public class Levelmanager : MonoBehaviour
 
         if(lvl.currentLevel >= atoms.Count)
         {
-            lvl.YouWon();
+            lvl.youWon = true;
         }
 
 

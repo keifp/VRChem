@@ -6,16 +6,13 @@ using UnityEngine.SceneManagement;
 public class LevelInfo : MonoBehaviour
 {
     public int currentLevel;
-
+    public bool youWon = false;
     // Start is called before the first frame update
     void Start()
     {
         DontDestroyOnLoad(gameObject);
     }
-    public void YouWon()
-    {
-        print("you won");
-    }
+
     // Update is called once per frame
     void Update()
     {
@@ -28,6 +25,7 @@ public class LevelInfo : MonoBehaviour
     public void Restart()
     {
         currentLevel = 0;
+        youWon = false;
         SceneManager.LoadScene(0);
     }    
 
