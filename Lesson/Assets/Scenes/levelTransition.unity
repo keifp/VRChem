@@ -1129,8 +1129,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 157429d9c12e3e64d9c84ec8c2589008, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  youWin: {fileID: 747779219}
+  nextLevel: {fileID: 2116499320}
 --- !u!224 &2116499319 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 4240000301319477649, guid: 88a38ac707e748945989b393e7c22afd, type: 3}
+  m_PrefabInstance: {fileID: 2116499316}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2116499320 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4240000300343190055, guid: 88a38ac707e748945989b393e7c22afd, type: 3}
   m_PrefabInstance: {fileID: 2116499316}
   m_PrefabAsset: {fileID: 0}
