@@ -53,12 +53,18 @@ public class Orbit : MonoBehaviour
         }
     }
 
-    //when released from had, do first time orbit again so it snaps to correct spot if dragged into neutron
+    //when released from hand, do first time orbit again so it snaps to correct spot if dragged into neutron
     public void Released()
     {
         firstTimeOrbiting = true;
     }
-
+    private void OnTriggerExit(Collider other)
+    {
+        if (!CompareTag("proton"))
+        {
+            orbit = false;
+        }
+    }
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("neutron"))
@@ -81,7 +87,7 @@ public class Orbit : MonoBehaviour
         }
     }
 
-    public void ResetLayout()
+        public void ResetLayout()
     {
         initialOrbitTransform = Vector3.zero;
         firstTimeOrbiting = true;
