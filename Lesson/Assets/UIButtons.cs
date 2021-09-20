@@ -4,20 +4,19 @@ using UnityEngine;
 
 public class UIButtons : MonoBehaviour
 {
-    public GameObject youWin;
-    public GameObject nextLevel;
+
     public void Start()
     { 
         if (FindObjectOfType<LevelInfo>().youWon)
         {
-            nextLevel.SetActive(false);
-            youWin.SetActive(true);
+            GameObject.Find("next level").SetActive(false);
+            GameObject.Find("You Win!").SetActive(true);
 
         }
         else
         {
-            nextLevel.SetActive(true);
-            youWin.SetActive(false);
+            GameObject.Find("next level").SetActive(true);
+            GameObject.Find("You Win!").SetActive(false);
         }
     }
     //getting button click and looking for current LevelInfo sript in the scene. This is because I can't plug it in the scene directly since the script comes from another scene

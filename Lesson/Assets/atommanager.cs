@@ -13,21 +13,10 @@ public class atommanager : MonoBehaviour
 
     public Vector3 firstProtonPosition;
     public Vector3 firstElectronPosition;
-    public float electronAngleDivide;
-    public float protonAngleDivide;
 
     public void AddElectron()
     {
         currentElectronNum++;
-        electronAngleDivide = 360 / currentElectronNum;
-        CheckCorrectAtom();
-    }
-
-    public void SubtractElectron()
-    {
-        currentElectronNum--;
-        electronAngleDivide = 360 / currentElectronNum ;
-
         CheckCorrectAtom();
 
     }
@@ -35,30 +24,19 @@ public class atommanager : MonoBehaviour
     //new
     public void AddProton()
     {
-
         currentProtonNum++;
-
-        protonAngleDivide = 360 / currentProtonNum;
-
-        CheckCorrectAtom();
-
-    }
-    public void SubtractProton()
-    {
-        currentProtonNum--;
-        protonAngleDivide = 360 / currentProtonNum;
-
         CheckCorrectAtom();
 
     }
 
-
+    
     void CheckCorrectAtom()
     {
+        print("Checking electron: " + currentElectronNum + " Checking Proton: "  + correctProtonNum);
         //new
         if (currentElectronNum == correctElectronNum && currentProtonNum == correctProtonNum)
         {
-            atomInfo.ShowNewText("Correct!");
+            atomInfo.ShowNewText("Correct");
             StartCoroutine("WaitAndNextLevel");
         }
     }

@@ -7,7 +7,6 @@ TagManager:
   - neutron
   - proton
   - electron
-  - walls
   layers:
   - Default
   - TransparentFX
