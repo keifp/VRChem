@@ -81,7 +81,7 @@ public class Orbit : MonoBehaviour
             {
                 FindObjectOfType<atommanager>().AddElectron();
                 angleDivide = 360 / FindObjectOfType<atommanager>().currentElectronNum;
-                particleIndex = FindObjectOfType<atommanager>().currentProtonNum;
+                particleIndex = FindObjectOfType<atommanager>().currentElectronNum;
 
             }
         }
