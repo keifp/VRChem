@@ -212,12 +212,3 @@ Total: 3.223200 ms (FindLiveObjects: 0.369800 ms CreateObjectMapping: 0.156700 m
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Import Request.
-  Time since last request: 568.957448 seconds.
-  path: Assets/912
-  artifactKey: Guid(253e5bdc58ebd4a50a120d21304c3b90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/912 using Guid(253e5bdc58ebd4a50a120d21304c3b90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78a42903ebd86bb1f36354618943e571') in 0.014570 seconds
-  Import took 0.022191 seconds .
-
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
