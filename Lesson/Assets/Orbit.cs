@@ -35,7 +35,13 @@ public class Orbit : MonoBehaviour
 
     }
 
- 
+    private void OnTriggerExit(Collider other)
+    {
+        if (CompareTag("proton"))
+        {
+            orbit = false;
+        }
+    }
     //called when an object is grabbed
     public void Grabbed()
     {
@@ -58,13 +64,7 @@ public class Orbit : MonoBehaviour
     {
         firstTimeOrbiting = true;
     }
-    private void OnTriggerExit(Collider other)
-    {
-        if (!CompareTag("proton"))
-        {
-            orbit = false;
-        }
-    }
+
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("neutron"))
@@ -87,7 +87,7 @@ public class Orbit : MonoBehaviour
         }
     }
 
-        public void ResetLayout()
+    public void ResetLayout()
     {
         initialOrbitTransform = Vector3.zero;
         firstTimeOrbiting = true;
@@ -110,7 +110,7 @@ public class Orbit : MonoBehaviour
                 rotationAngle = (rotationSpeed * Time.deltaTime);
                 GetComponent<Rigidbody>().velocity = Vector3.zero;
 
-                if(particleIndex == 1)
+                if (particleIndex == 1)
                 {
                     if (CompareTag("proton"))
                     {
@@ -135,7 +135,10 @@ public class Orbit : MonoBehaviour
                 {
                     foreach (Orbit o in FindObjectsOfType<Orbit>())
                     {
-                        o.firstTimeOrbiting = true;
+                        if (o.CompareTag(tag))
+                        {
+                            o.firstTimeOrbiting = true;
+                        }
                     }
                     resetAllPos = false;
                 }

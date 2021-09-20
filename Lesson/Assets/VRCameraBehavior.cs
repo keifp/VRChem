@@ -25,7 +25,7 @@ public class VRCameraBehavior : MonoBehaviour
 
             movementFrozen = true;
             freezePos = transform.position;
-            GetComponent<MeshRenderer>().enabled = true;
+            //GetComponent<MeshRenderer>().enabled = true;
 
         }
 
