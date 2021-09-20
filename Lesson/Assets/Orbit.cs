@@ -10,7 +10,7 @@ public class Orbit : MonoBehaviour
     Vector3 axis = Vector3.up;
     Transform center;
     public Vector3 desiredPosition;
-
+    bool resetAllPos = false;
     bool justSpawned = true;
 
     Vector3 startPos;
@@ -125,6 +125,15 @@ public class Orbit : MonoBehaviour
                     initialOrbitTransform = FindObjectOfType<atommanager>().firstElectronPosition;
                 }
 
+                if (resetAllPos)
+                {
+                    foreach (Orbit o in FindObjectsOfType<Orbit>())
+                    {
+                        o.firstTimeOrbiting = true;
+                    }
+                    resetAllPos = false;
+                }
+
                 if (firstTimeOrbiting)
                 {
                     print("particleIndex " + particleIndex + " initial pos" + initialOrbitTransform);
@@ -132,6 +141,7 @@ public class Orbit : MonoBehaviour
                     transform.RotateAround(center.position, axis, angleDivide);
                     firstTimeOrbiting = false;
                 }
+
 
                 transform.RotateAround(center.position, axis, rotationAngle);
                 desiredPosition = (transform.position - center.position).normalized * radius + center.position;
