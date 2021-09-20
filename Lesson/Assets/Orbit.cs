@@ -10,7 +10,7 @@ public class Orbit : MonoBehaviour
     Vector3 axis = Vector3.up;
     Transform center;
     public Vector3 desiredPosition;
-    bool resetAllPos = false;
+    bool resetAllPos = true;
     bool justSpawned = true;
 
     Vector3 startPos;
@@ -27,29 +27,58 @@ public class Orbit : MonoBehaviour
 
     [HideInInspector]
     public ParticleSpawn spawner;
+    private bool grabbed;
 
     private void Start()
     {
         startPos = transform.position;
         startRot = transform.rotation.eulerAngles;
-
     }
 
     private void OnTriggerExit(Collider other)
     {
-        if (CompareTag("proton"))
-        {
-            orbit = false;
-        }
+        orbit = false;
     }
+
     //called when an object is grabbed
     public void Grabbed()
     {
-        //resetting as if you're grabbing it and it hasn't orbitted
-        firstTimeOrbiting = true;
-        orbit = false;
-        center = null;
-        GetComponent<Rigidbody>().velocity = Vector3.zero;
+        grabbed = true;
+        if (orbit)
+        {
+            //resetting as if you're grabbing it and it hasn't orbitted
+            firstTimeOrbiting = true;
+            orbit = false;
+            center = null;
+            GetComponent<Rigidbody>().velocity = Vector3.zero;
+
+
+            foreach (Orbit o in FindObjectsOfType<Orbit>())
+            {
+                if (o.CompareTag(tag))
+                {
+                    o.firstTimeOrbiting = true;
+                }
+            }
+            resetAllPos = false;
+
+
+
+            if (CompareTag("proton"))
+            {
+                print("Current proton num: " + FindObjectOfType<atommanager>().currentProtonNum);
+
+                FindObjectOfType<atommanager>().SubtractProton();
+                angleDivide = 360 / FindObjectOfType<atommanager>().currentProtonNum;
+            }
+            else
+            {
+                FindObjectOfType<atommanager>().SubtractElectron();
+                print("Current electron num: " + FindObjectOfType<atommanager>().currentElectronNum);
+                angleDivide = 360 / FindObjectOfType<atommanager>().currentElectronNum;
+            }
+
+        }
 
         //the first time you grab it it should make it so you spawn a new object
         if (justSpawned)
@@ -62,27 +91,31 @@ public class Orbit : MonoBehaviour
     //when released from hand, do first time orbit again so it snaps to correct spot if dragged into neutron
     public void Released()
     {
-        firstTimeOrbiting = true;
+        grabbed = false;
     }
 
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerStay(Collider other)
     {
-        if (other.CompareTag("neutron"))
+        if (!grabbed)
         {
-            orbit = true;
-            center = other.transform;
-            if (CompareTag("proton"))
+            if (!orbit)
             {
-                FindObjectOfType<atommanager>().AddProton();
-                angleDivide = 360 / FindObjectOfType<atommanager>().currentProtonNum;
-                particleIndex = FindObjectOfType<atommanager>().currentProtonNum;
-            }
-            else
-            {
-                FindObjectOfType<atommanager>().AddElectron();
-                angleDivide = 360 / FindObjectOfType<atommanager>().currentElectronNum;
-                particleIndex = FindObjectOfType<atommanager>().currentElectronNum;
+                if (other.CompareTag("neutron"))
+                {
+                    orbit = true;
+                    center = other.transform;
+                    if (CompareTag("proton"))
+                    {
+                        FindObjectOfType<atommanager>().AddProton();
+                        particleIndex = FindObjectOfType<atommanager>().currentProtonNum;
+                    }
+                    else
+                    {
+                        FindObjectOfType<atommanager>().AddElectron();
+                        particleIndex = FindObjectOfType<atommanager>().currentElectronNum;
 
+                    }
+                }
             }
         }
     }
@@ -107,7 +140,6 @@ public class Orbit : MonoBehaviour
         {
             if (orbit)
             {
-                rotationAngle = (rotationSpeed * Time.deltaTime);
                 GetComponent<Rigidbody>().velocity = Vector3.zero;
 
                 if (particleIndex == 1)
@@ -145,13 +177,23 @@ public class Orbit : MonoBehaviour
 
                 if (firstTimeOrbiting)
                 {
-                    print("particleIndex " + particleIndex + " initial pos" + initialOrbitTransform);
                     transform.position = initialOrbitTransform;
+                    if (CompareTag("proton"))
+                    {
+                        angleDivide = FindObjectOfType<atommanager>().protonAngleDivide;
+                    }
+                    else
+                    {
+                        angleDivide = FindObjectOfType<atommanager>().electronAngleDivide;
+
+                    }
+                    angleDivide *= particleIndex;
+
                     transform.RotateAround(center.position, axis, angleDivide);
                     firstTimeOrbiting = false;
                 }
 
-
+                rotationAngle = (rotationSpeed * Time.deltaTime);
                 transform.RotateAround(center.position, axis, rotationAngle);
                 desiredPosition = (transform.position - center.position).normalized * radius + center.position;
                 transform.position = desiredPosition;
