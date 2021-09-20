@@ -4882,7 +4882,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d42c59fe46c969249ade039ed1fa4ef1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cam: {fileID: 1887509042}
+  cam: {fileID: 9214856978320327284}
 --- !u!23 &985343681
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -8315,11 +8315,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!1 &1887509042 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 9214856977872686782, guid: f9b035d8d4b862b46a680910d85b75c8, type: 3}
-  m_PrefabInstance: {fileID: 9214856978320327282}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1925042387
 GameObject:
   m_ObjectHideFlags: 0
